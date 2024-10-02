@@ -27,10 +27,6 @@
     box-sizing: border-box;
 }
 
-.overflow-fix {
-    overflow: clip;
-}
-
 ul {
     list-style: none;
 }
@@ -54,7 +50,6 @@ a {
     max-width: 106px;
     max-height: 70px;
     padding-top: 10px;
-    overflow-x: clip;
 }
 
 header {
@@ -282,11 +277,9 @@ header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    overflow-x: clip;
     height: 900px;
     justify-content: center;
     align-items: center;
-    overflow-x: clip;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.84) 0%, rgba(0, 0, 0, 0.54) 100%), url(rss/Home\ hero-min.png) lightgray 50% / cover no-repeat;
 }
 
@@ -354,12 +347,10 @@ header {
 @media screen and (max-width: 1040px) {
     .hero-container-contact {
         background-position: right;
-        overflow-x: clip;
     }
 
     .hero-container-auto {
         background-position: right;
-        overflow-x: clip;
     }
 }
 
@@ -370,7 +361,6 @@ header {
     align-items: center;
     gap: 24px;
     margin-bottom: 30px;
-    overflow-x: clip;
 }
 
 .hero-title {
@@ -404,7 +394,6 @@ header {
 .btn-hero-container {
     display: flex;
     gap: 16px;
-    overflow-x: clip;
 }
 
 .btn-blue-white {
@@ -549,9 +538,6 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    overflow-x: clip;
-    
-
 }
 
 .home-info-title {
@@ -801,7 +787,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    overflow-x: clip;
+
 }
 
 .point-card {
@@ -1122,12 +1108,10 @@ header {
     line-height: 120%;
     margin-bottom: clamp(20px, 0.4vw, 24px);
     width: clamp(300px, 28.1vw, 616px);
-    overflow-x: clip;
 }
 
 .right-side {
     width: clamp(300px, 28.1vw, 616px);
-    overflow-x: clip;
 }
 
 .about-info-text {
@@ -1137,7 +1121,6 @@ header {
     font-weight: 400;
     line-height: 150%;
     margin-bottom: clamp(24px, 0.8vw, 32px);
-    overflow-x: clip;
 }
 
 @media screen and (max-width: 870px) {
@@ -1145,7 +1128,6 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        overflow-x: clip;
     }
 }
 
@@ -1155,8 +1137,6 @@ header {
     justify-content: center;
     align-items: center;
     padding: clamp(64px, 4.8vw, 112px) clamp(20px, 4.4vw, 64px);
-    overflow-x: clip;
-    
 }
 
 .img-about {
@@ -1438,7 +1418,6 @@ header {
     justify-content: start;
     align-items: start;
     gap: 24px;
-    overflow-x: clip;
 }
 
 .content-title-left {
@@ -1460,8 +1439,6 @@ header {
 .right-content {
     width: clamp(355px, 41.3vw, 768px);
     background: var(--white);
-    overflow-x: clip;
-
 }
 
 .content-title-right {
@@ -1538,7 +1515,6 @@ header {
     border-bottom: 4px solid var(--blue);
     width: clamp(300px, 100%, 1312px);
     transition: scale 0.3s linear;
-    overflow-x: clip;
 }
 
 .faq:hover {
@@ -1603,7 +1579,6 @@ header {
     align-items: center;
     gap: 24px;
     padding: clamp(64px, 4.8vw, 112px) clamp(20px, 4.4vw, 64px);
-    overflow-x: clip;
 }
 
 .ask-title {
